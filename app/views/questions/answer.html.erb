@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <div class="container">
+    <h1>Your discussion</h1>
+    <div class="statement">
+      <p id="you">
+        <%= @statement %>
+      </p>
+      <p>-- You</p>
+    </div>
+    <div class="answer">
+      <p id="coach">>
+        <%= @answer %>
+      </p>
+      <p> -- Your coach</p>
+    </div>
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>

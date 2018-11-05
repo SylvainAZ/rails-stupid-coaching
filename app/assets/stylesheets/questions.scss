@@ -1,0 +1,52 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  background-image: url("https://picsum.photos/1200/1000/?random");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  height: 100vh;
+  background: transparent;
+}
+
+
+.statement {
+  background-color: #FEFDFF;
+  margin-bottom: 10px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+
+
+}
+
+.answer {
+  margin-top: 10px;
+  background-color: #BDBBB0;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#you {
+  font-size: 16px;
+  color: rgb(36, 58, 24);
+}
+
+
+#coach {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(45, 29, 19);
+}
+
+input {
+  height: 30px;
+  width: 150px,
+}
